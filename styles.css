@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+#background-image {
+background-image: url("https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=22a76f1f5b5356561e26bcd5403013a3");
+  height:22rem;
+  margin-top:3.5em;
+  margin-right:0;
+  background-size:120%;
+  background-repeat: no-repeat;
+}
+
+h6 {
+  color:#fff;
+  text-align: right;
+  margin-right: -1.5em;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width:7em;
+  margin-bottom:-2em;
+}
+
+#sobre h1 {
+  font-family:"Montserrat";
+  font-weight: 700;
+  color: #000;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 2.3rem;
+  border-radius: 2%;
+}
+
+#sobre h5 {
+  color: #fff;
+  font-weight: 400;
+}
+
+#experiencia ul, #experiencia li {
+  padding-left:0;
+  list-style-type: none;
+}
