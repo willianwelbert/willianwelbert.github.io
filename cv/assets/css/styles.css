@@ -287,3 +287,9 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+@media only print {
+  .skills-section, .interests-container, .profile, .contact-list hr {
+    display: none;
+  }
+}
