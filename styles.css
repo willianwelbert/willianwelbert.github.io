@@ -1,70 +1,70 @@
 body {
-    background-image: url(doodles-colorburn.png);
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    color: #FBFBFB;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #4A4B54;
+  background-color: #CCDEE8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
+
 h3, p:nth-child(1){
-    font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
 }
 
 p:nth-child(1){
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.5em;
-    margin-left: 1em;
-    margin-top: 1em;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 h1 {
-    font-weight: 100;
-    font-size: 4.7em;
-    line-height: .9em;
-    text-align: center;
-    margin-top: .7em;
+  font-weight: 100;
+  font-size: 3.7rem;
+  line-height: 4.2rem;
+  text-align: center;
+  margin-top: .7rem;
 }
 
 h3 {
-    font-weight: 400;
-    font-size: 1em;
-    text-align: center;
-    margin-top: -2em;
-    text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: -2em;
+  text-decoration: underline;
 }
 
-p:nth-child(4){
-    font-size: 1.5em;
-    margin: 10% 5%;
-    text-align: center;
+.links{
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin: 10% 5%;
+  text-align: center;
+  max-width: 600px;
 }
 
-p:nth-child(5){
-    font-size: 1.5em;
-    text-align: center;
-    line-height: 2em;
-    margin: 10% 5%;
+.illustration{
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
 }
 
 a {
-    font-weight: 700;
-    color: #FBFBFB;
+  font-weight: 100;
+  color: #242C3D;
 }
 
-@media only screen and (min-width: 1024px){
-    p:nth-child(1){
-        margin-left: 25%;
-    }
-    
-    p:nth-child(4){
-        font-size: 2em;
-        margin: 5% auto;
-    }
-    
-    p:nth-child(5){
-        font-size: 2.5em;
-        max-width: 24em;
-        margin: 0 auto;
-    }
-    
+a:hover {
+  color: #fff;
+  background-color: #242C3D;
+}
+
+@media only screen and (max-width: 400px){
+  .illustration {
+    /* display: none; */
+  }
 }
